@@ -1,0 +1,195 @@
+@charset "UTF-8";
+a{
+	text-decoration: none;
+}
+
+header{
+	height: 65px;
+	color:#FFF;
+	background-color: rgba(34, 49, 52, 0.9);
+	position: fixed;
+	top:0;
+	z-index: 10;
+	width: 100%;
+	text-align: center;
+
+}
+.header{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.header-left{
+	float:left;
+	position: relative;
+}
+
+.hedder-logo{
+	background-color: rgba(255,255,255,0.5);
+	position: absolute;
+	top:0;
+	left:0;
+}
+
+
+.header-left img{
+	display: inline;
+	width:124px;
+	height: 65px;
+}
+.header-left .logo-text{
+	position: absolute;
+	top:0;
+	left:0;
+	width: 124px;
+	height: 65px;
+}
+
+.header-left p{
+	width: 124px;
+	margin:0 auto;
+	line-height: 65px;
+
+
+
+}
+.header-right{
+	float:right;
+	color:#FFF;
+	line-height: 65px;
+	display: block;
+
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-right a{
+	color:#FFF;
+	display: block;
+	background-color: gba(255, 255, 255, 0.3);
+}
+.header-right:hover{
+
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+.top-wrapper{
+	padding:180px 0 100px 0;
+	background-image: URL("https://d1f5hsy4d47upe.cloudfront.net/02/02574ead04a7591d2a7a6944ab12ed2d_t.jpeg");
+    background-size: cover;
+    text-align: center;
+}
+
+
+.container{
+	width:1170px;
+	padding:0 15px;
+	color:#fff;
+    margin:0 auto;
+}
+.top-wrapper h1{
+	opacity:0.7;
+	font-size: 45px;
+	letter-spacing:5px;
+}
+
+.top-wrapper p{
+	opacity:0.7;
+
+	background-color:#606060;
+}
+
+.btn{
+	display: inline-block;
+	color:#fff;
+	padding:8px 24px;
+	opacity:0.8;
+	border-radius: 4px;
+}
+.btn:hover{
+	opacity: 1;
+}
+
+.talk{
+	background-color: #00ff00;
+}
+.battele{
+	background-color: #ff0000;
+	margin-right: 20px;
+}
+.walk{
+	background-color: #00ffff;
+}
+.btn-wrapper p{
+	margin:15px 0;
+}
+
+.moveboor-wrapper{
+	height: 500px;
+	color:#000;
+
+	text-align: center;
+}
+.moveboor-wrapper h3,.moveboor-wrapper p{
+	color:#000;
+}
+.door{
+	float:left;
+	width: 25%;
+
+}
+.door-icon{
+	position: relative;
+}
+.door-icon p{
+	position: absolute;
+	top:80px;
+	width: 100%;
+	font-size: 40px;
+}
+
+.reset{
+	background-color: #ffff00;
+	text-align: center;
+	padding :50px 0;
+}
+.reset h2{
+	color: #000000;
+}
+
+.reset-btn{
+	background-color: #ff0000;
+	box-shadow: 0 7px #000;
+	cursor: pointer;
+}
+.reset-btn:active{
+	box-shadow:none;
+	position: relative;
+	top:7px;
+
+}
+footer{
+    background-color:#888;
+	padding:30px;
+}
+.footer_Logo{
+	width: 150px;
+	height:40px;
+	margin:20px;
+	background-color: #ff760073;
+	position: relative;
+
+}
+.f_logo_item{
+	float:left;
+}
+.f_logo_item img{
+	width :20px;
+	patdding-top:20px;
+	height: 20px;
+}
+.f_logo_item p{
+	float:left;
+	display: block;
+	width:80%;
+	line-height :20px;
+}
